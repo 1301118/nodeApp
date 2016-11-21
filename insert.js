@@ -42,7 +42,7 @@ http.createServer(function (request, response) {
                     response.write('Inserted ' + result.insertedCount + ' documents ok. +"\n"');
                     //Close connection
                     db.close();
-                    response.end('Finished, Connection closed \n');
+                    response.end('Finished testing, Connection closed \n');
                 }
 
                 //remove any other db.close or response.end statement below this line
